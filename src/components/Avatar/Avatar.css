@@ -1,0 +1,12 @@
+.AvatarBot{
+    background-image: url('https://avatars.githubusercontent.com/u/76716674?v=4');
+    background-size: cover;
+    background-position: top center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
