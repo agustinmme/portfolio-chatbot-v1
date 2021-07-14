@@ -16,22 +16,6 @@
         "type":["React","Chakra-ui"]
       },
       {
-        "id": 2,
-        "url":"#",
-        "image":"https://www.frontendmentor.io/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdz209s6jk%2Fimage%2Fupload%2Fv1573656786%2FChallenges%2Ffnzuxyyl1wwyscqgaiyc.jpg&w=828&q=75",
-        "name": "(Proximamente)",
-        "text": "instagram",
-        "type":["React","Chakra-ui"]
-      },
-      {
-        "id": 3,
-        "url":"#",
-        "image":"https://www.frontendmentor.io/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdz209s6jk%2Fimage%2Fupload%2Fv1584486415%2FChallenges%2Fag173wjmrf6agqxqqeoh.jpg&w=828&q=75",
-        "name": "(Proximamente)",
-        "text": "youtube",
-        "type":["React","Chakra-ui"]
-      },
-      {
         "id": 4,
         "url":"https://play.google.com/store/apps/details?id=androidunlp.tpgrupo7.cuadrocromatico",
         "image":"https://play-lh.googleusercontent.com/vcy-kTpU_LjtegCx6h4V25Mdi-udkJGvzhcyh_YEfaYI4N5x0OpcJU3B4SKlqluI2As=w1920-h937-rw",
@@ -42,7 +26,7 @@
       {
         "id": 5,
         "url":"https://agustinmme.github.io/react-chakra/",
-        "image":"https://play-lh.googleusercontent.com/vcy-kTpU_LjtegCx6h4V25Mdi-udkJGvzhcyh_YEfaYI4N5x0OpcJU3B4SKlqluI2As=w1920-h937-rw",
+        "image":"https://i.imgur.com/ngJllFy.png",
         "name": "ToDo List",
         "text": "instagram",
         "type":["React","Chakra-ui"]
@@ -50,7 +34,7 @@
       {
         "id": 6,
         "url":"https://github.com/juanpabloch/tp-grupo6",
-        "image":"https://play-lh.googleusercontent.com/vcy-kTpU_LjtegCx6h4V25Mdi-udkJGvzhcyh_YEfaYI4N5x0OpcJU3B4SKlqluI2As=w1920-h937-rw",
+        "image":"https://kinsta.com/es/wp-content/uploads/sites/8/2020/01/git-vs-github-1024x512.png",
         "name": "Where's my books?(Backend)",
         "text": "instagram",
         "type":["Nodejs","MySql"]

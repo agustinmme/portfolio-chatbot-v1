@@ -22,15 +22,6 @@ class ActionProvider {
     );
     this.addMessageToState(message);
   };
-  handleJavascriptQuiz = () => {
-    const message = this.createChatBotMessage(
-      "Fantastic. Here is your quiz. Good luck!",
-      {
-        widget: "javascriptQuiz",
-      }
-    );
-    this.addMessageToState(message);
-  };
 
   handleProyect = () => {
     const message = this.createChatBotMessage(
@@ -42,11 +33,11 @@ class ActionProvider {
 
     this.addMessageToState(message);
   };
-  handleRedes = () => {
+  handleSkills = () => {
     const message = this.createChatBotMessage(
-      "Te dejo mis redes😆",
+      "👨‍💻 Mis habilidades:",
       {
-        widget: "redes",
+        widget: "habilidades",
       }
     );
 
@@ -70,14 +61,26 @@ class ActionProvider {
   };
   handleContact = () => {
     const message = this.createChatBotMessage(
-      "Te dejo mi correo :📧 agustinmansilla240@gmail.com ",
+      "Te dejo mi correo y redes :📧 agustinmansilla240@gmail.com ",
+      {
+        widget: "redes",
+      }
+    );
+    this.addMessageToState(message);
+  };
+  handleCv = () => {
+    const message = this.createChatBotMessage(
+      "Te dejo mi cv 📃",
+      {
+        widget: "cv",
+      }
     );
     this.addMessageToState(message);
   };
 
   handleCommand = () => {
     const message = this.createChatBotMessage(
-      "🤖 Mis comandos por ahora son: hola,chau,gracias,menu,redes,comandos",
+      "🤖 Mis comandos por ahora son: hola,chau,gracias,menu,conctacto,cmd,cv,skills",
     );
     this.addMessageToState(message);
   };
