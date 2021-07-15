@@ -5,7 +5,7 @@ class MessageParser {
 
   parse(message) {
     const lowercase = message.toLowerCase();
-    const wordsKeys = ["hola", "chau", "gracias", "cmd", "menu", "conctacto","cv","skills"];
+    const wordsKeys = ["hola", "chau", "gracias", "cmd", "menu", "contacto","cv","skills"];
     const COMMANDS = {
       hola: this.actionProvider.greet,
       chau: this.actionProvider.ungreet,
@@ -13,7 +13,7 @@ class MessageParser {
       cmd: this.actionProvider.handleCommand,
       menu: this.actionProvider.handleNav,
       gracias: this.actionProvider.ty,
-      conctacto: this.actionProvider.handleContact,
+      contacto: this.actionProvider.handleContact,
       cv: this.actionProvider.handleCv,
       skills: this.actionProvider.handleSkills,
     };
