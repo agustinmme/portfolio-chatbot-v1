@@ -19,6 +19,7 @@ const colors = {
     "XML": "tag-skill-2  android",
     "HTML": "tag-skill-2  java",
     "CSS": "tag-skill-2  mysql",
+    "npm/yarn": "tag-skill-1  java",
   };
 export default function Skills() {
   return (
