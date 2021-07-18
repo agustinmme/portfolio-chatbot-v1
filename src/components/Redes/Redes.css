@@ -6,7 +6,11 @@
 
 
 .social-links {
-	display: flex;
+	display: grid;
+	gap:0.5rem;
+	grid-auto-flow: dense;
+	grid-auto-rows: 1rem;
+   grid-template-columns: repeat(auto-fit,minmax(1rem,1fr));
 }
 
 .social-btn {

@@ -4,24 +4,48 @@ class MessageParser {
   }
 
   parse(message) {
-    const lowercase = message.toLowerCase();
-    const wordsKeys = ["hola", "chau", "gracias", "cmd", "menu", "contacto","cv","skills"];
-    const COMMANDS = {
-      hola: this.actionProvider.greet,
-      chau: this.actionProvider.ungreet,
-      "como estas": this.actionProvider.handleHow,
-      cmd: this.actionProvider.handleCommand,
-      menu: this.actionProvider.handleNav,
-      gracias: this.actionProvider.ty,
-      contacto: this.actionProvider.handleContact,
-      cv: this.actionProvider.handleCv,
-      skills: this.actionProvider.handleSkills,
-    };
+    const lowerCase = message.toLowerCase();
 
-    !wordsKeys.includes(lowercase)
-      ? this.actionProvider.notFound()
-      : COMMANDS[lowercase]();
-
+    if (
+      !lowerCase.includes("hola") &&
+      !lowerCase.includes("chau") &&
+      !lowerCase.includes("gracias") &&
+      !lowerCase.includes("como estas") &&
+      !lowerCase.includes("cmd") &&
+      !lowerCase.includes("cv") &&
+      !lowerCase.includes("menu") &&
+      !lowerCase.includes("contacto") &&
+      !lowerCase.includes("skills")
+    ) {
+      return this.actionProvider.notFound();
+    }
+    if (lowerCase.includes("hola")) {
+      return this.actionProvider.greet();
+    }
+    if (lowerCase.includes("skills")) {
+      this.actionProvider.handleSkills();
+    }
+    if (lowerCase.includes("cv")) {
+      this.actionProvider.handleCv();
+    }
+    if (lowerCase.includes("contacto")) {
+      this.actionProvider.handleContact();
+    }
+    if (lowerCase.includes("gracias")) {
+      this.actionProvider.ty();
+    }
+    if (lowerCase.includes("como estas")) {
+      this.actionProvider.handleHow();
+    }
+    if (lowerCase.includes("menu")) {
+      return this.actionProvider.handleNav();
+    }
+    if (lowerCase.includes("cmd")) {
+      return this.actionProvider.handleCommand();
+    }
+    if (lowerCase.includes("chau")) {
+      return this.actionProvider.ungreet;
+    }
   }
 }
 

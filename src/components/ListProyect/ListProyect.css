@@ -1,42 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-.card-container {
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
+.container {
+  display: flex;  
+  flex-wrap: wrap;
 }
-.box {
-  background: #ffffff;
-  border-radius: 5px;
-  box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+.card {
   margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 250px;
 }
-.box div {
-  border-radius: 5px;
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
-.card-about {
+.card-body {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 0px 10px 10px;
+  min-height: 50px;
 }
-
-.card-tag {
-  width: 50px;
-  max-width: 130px;
-  padding: 0.2rem 0.5rem;
-  margin: 0.2rem;
+.tag-container-grid {
+  display: flex;
+  margin-top: -15px;
+  margin-bottom: 10px;
+  width: 200px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.button-container-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.button-container-grid a{
+text-decoration: none;
+color: #fff;
+width:110px;
+height:20px;
+font-size: 15px;
+background-color:#cccccc;
+margin-right: 10px;
+}
+.tag {
+  background: #cccccc;
+  border-radius: 50px;
   font-size: 12px;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  background: #505f79;
+  margin: 1px;
   color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
 }
-.tag-normal {
-  width: 120px;
-}
-
 .java{
   background: #ee4f33;
 }
@@ -58,32 +76,7 @@
 .chakra{
   background: #4fd1c5;
 }
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.property-card {
-   margin : 10px;
-  height: 12em;
-  width: 14em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  position: relative;
-  border-radius:16px 16px 0px 0px;
-  overflow:hidden;
-}
 
-.property-description {
-  background-color: #fafafc;
-  height: 6em;
-  width: 14em;
-  position: absolute;
-  bottom: 0em;
-  text-align:center;
-}
+
+
+
