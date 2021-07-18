@@ -80,7 +80,7 @@ class ActionProvider {
 
   handleCommand = () => {
     const message = this.createChatBotMessage(
-      "🤖 Mis comandos por ahora son: hola,chau,gracias,como estas,menu,conctacto,cmd,cv,skills. No es necesario tipearlos separados Ej: me pasas tu Cv?",
+      "🤖 Mis comandos por ahora son: hola,chau,gracias,como estas,menu,conctacto,cmd,cv,skills. Ejemplo: me pasas tu Cv?",
     );
     this.addMessageToState(message);
   };
