@@ -63,7 +63,7 @@ class ActionProvider {
     const message = this.createChatBotMessage(
       "Te dejo mi correo y redes :📧 agustinmansilla240@gmail.com ",
       {
-        widget: "redes",
+        widget: "contacto",
       }
     );
     this.addMessageToState(message);
@@ -80,7 +80,7 @@ class ActionProvider {
 
   handleCommand = () => {
     const message = this.createChatBotMessage(
-      "🤖 Mis comandos por ahora son: hola,chau,gracias,como estas,menu,conctacto,cmd,cv,skills. Ejemplo: me pasas tu Cv?",
+      "🤖 Mis comandos por ahora son: hola,chau,gracias,como estas,menu,contacto,cmd,cv,skills. Ejemplo: me pasas tu Cv?",
     );
     this.addMessageToState(message);
   };

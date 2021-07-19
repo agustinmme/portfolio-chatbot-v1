@@ -23,16 +23,3 @@ code {
   align-items: center;
 
 }
-
-.react-chatbot-kit-chat-inner-container {
-  background: 
-    url("https://cloud.githubusercontent.com/assets/398893/15136779/4e765036-1639-11e6-9201-67e728e86f39.jpg")
-    repeat;
-  border-radius: 3px;
-  margin-bottom: 15px;
-  border-radius: 5px;
-}
-.react-chatbot-kit-chat-message-container {
-  padding: 0 17.5px 10px 17.5px;
-  overflow: scroll;
-}

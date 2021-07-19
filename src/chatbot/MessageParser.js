@@ -44,7 +44,7 @@ class MessageParser {
       return this.actionProvider.handleCommand();
     }
     if (lowerCase.includes("chau")) {
-      return this.actionProvider.ungreet;
+      return this.actionProvider.ungreet();
     }
   }
 }

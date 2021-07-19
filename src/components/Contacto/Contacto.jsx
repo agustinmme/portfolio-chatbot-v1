@@ -1,6 +1,6 @@
 import React from "react";
-import "./Redes.css"
-export default function Redes() {
+import "./Contacto.css"
+export default function Contacto() {
   return (
     <>
       <div className='social-links'>
