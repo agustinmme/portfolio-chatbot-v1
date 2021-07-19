@@ -7,7 +7,7 @@ class MessageParser {
     const lowerCase = message.toLowerCase();
 
     if (
-      !lowerCase.includes("hola") &&
+      !lowerCase.includes("skills") &&
       !lowerCase.includes("chau") &&
       !lowerCase.includes("gracias") &&
       !lowerCase.includes("como estas") &&
@@ -15,15 +15,15 @@ class MessageParser {
       !lowerCase.includes("cv") &&
       !lowerCase.includes("menu") &&
       !lowerCase.includes("contacto") &&
-      !lowerCase.includes("skills")
+      !lowerCase.includes("hola")
     ) {
       return this.actionProvider.notFound();
     }
-    if (lowerCase.includes("hola")) {
-      return this.actionProvider.greet();
-    }
     if (lowerCase.includes("skills")) {
       this.actionProvider.handleSkills();
+    }
+    if (lowerCase.includes("hola")) {
+     this.actionProvider.greetings();
     }
     if (lowerCase.includes("cv")) {
       this.actionProvider.handleCv();
@@ -38,13 +38,13 @@ class MessageParser {
       this.actionProvider.handleHow();
     }
     if (lowerCase.includes("menu")) {
-      return this.actionProvider.handleNav();
+       this.actionProvider.handleNav();
     }
     if (lowerCase.includes("cmd")) {
-      return this.actionProvider.handleCommand();
+       this.actionProvider.handleCommand();
     }
     if (lowerCase.includes("chau")) {
-      return this.actionProvider.ungreet();
+       this.actionProvider.ungreet();
     }
   }
 }
