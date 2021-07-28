@@ -28,7 +28,6 @@ export default function ListProyect({ links, name, img, type }) {
           </div>
           <div className="button-container-grid">
             <a target="_blank" rel="noopener noreferrer"  href={links[0]} >DEPLOY</a>
-            <a target="_blank" rel="noopener noreferrer"  href={links[1]}>CODE</a>
           </div>
         </div>
       </div>

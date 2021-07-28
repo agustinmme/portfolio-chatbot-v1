@@ -40,11 +40,10 @@
 .button-container-grid a{
 text-decoration: none;
 color: #fff;
-width:110px;
+width:220px;
 height:20px;
 font-size: 15px;
 background-color:#cccccc;
-margin-right: 10px;
 }
 .tag {
   background: #cccccc;
