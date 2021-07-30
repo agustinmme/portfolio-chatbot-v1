@@ -8,6 +8,7 @@ const colors = {
   Android: "tag android",
   React: "tag  react",
   MySql: "tag mysql",
+  bootstrap: "tag ",
   "Chakra-ui": "tag chakra",
 };
 export default function ListProyect({ links, name, img, type }) {

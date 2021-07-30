@@ -33,10 +33,10 @@
       } ,
       {
         "id": 6,
-        "url":["https://github.com/juanpabloch/tp-grupo6","https://github.com/juanpabloch/tp-grupo6"],
-        "image":"https://kinsta.com/es/wp-content/uploads/sites/8/2020/01/git-vs-github-1024x512.png",
+        "url":["https://tp-grupo6-react.vercel.app/"],
+        "image":"https://i.imgur.com/meelx42.png",
         "name": "Where's my books?",
         "text": "Proyecto [React,Nodejs]",
-        "type":["React","Nodejs"]
+        "type":["React","Nodejs","bootstrap"]
       }
   ]
