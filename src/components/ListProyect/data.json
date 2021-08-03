@@ -38,5 +38,13 @@
         "name": "Where's my books?",
         "text": "Proyecto [React,Nodejs]",
         "type":["React","Nodejs","bootstrap"]
+      },
+      {
+        "id": 7,
+        "url":["https://birthday-app-vite.vercel.app/"],
+        "image":"https://i.imgur.com/zuTOGX7.png",
+        "name": "Birthday Reminder",
+        "text": "Proyecto [React,Chakra-ui]",
+        "type":["React","Chakra-ui"]
       }
   ]

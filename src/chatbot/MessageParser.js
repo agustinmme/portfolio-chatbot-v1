@@ -15,6 +15,7 @@ class MessageParser {
       !lowerCase.includes("cv") &&
       !lowerCase.includes("menu") &&
       !lowerCase.includes("contacto") &&
+      !lowerCase.includes("update") &&
       !lowerCase.includes("hola")
     ) {
       return this.actionProvider.notFound();
@@ -46,6 +47,9 @@ class MessageParser {
     if (lowerCase.includes("chau")) {
        this.actionProvider.ungreet();
     }
+    if (lowerCase.includes("update")) {
+      this.actionProvider.handleUpdate();
+   }
   }
 }
 

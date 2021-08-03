@@ -59,6 +59,12 @@ class ActionProvider {
     );
     this.addMessageToState(message);
   };
+  handleUpdate= () => {
+    const message = this.createChatBotMessage(
+      "🆙 Proximo update = emojis",
+    );
+    this.addMessageToState(message);
+  };
   handleContact = () => {
     const message = this.createChatBotMessage(
       "Te dejo mi correo y redes :📧 agustinmansilla240@gmail.com ",
@@ -80,7 +86,7 @@ class ActionProvider {
 
   handleCommand = () => {
     const message = this.createChatBotMessage(
-      "🤖 Mis comandos por ahora son: hola,chau,gracias,como estas,menu,contacto,cmd,cv,skills. Ejemplo: me pasas tu Cv?",
+      "🤖 Mis comandos por ahora son: hola,chau,gracias,como estas,menu,contacto,cmd,cv,skills,update. Ejemplo: me pasas tu Cv?",
     );
     this.addMessageToState(message);
   };
