@@ -46,5 +46,13 @@
         "name": "Birthday Reminder",
         "text": "Proyecto [React,Chakra-ui]",
         "type":["React","Chakra-ui"]
+      },
+      {
+        "id": 8,
+        "url":["https://our-tours.vercel.app/"],
+        "image":"https://i.imgur.com/0usXoPF.png",
+        "name": "Our Tours",
+        "text": "Proyecto [React,Chakra-ui]",
+        "type":["React","Chakra-ui"]
       }
   ]
