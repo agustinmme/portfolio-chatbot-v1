@@ -54,5 +54,13 @@
         "name": "Our Tours",
         "text": "Proyecto [React,Chakra-ui]",
         "type":["React","Chakra-ui"]
+      },
+      {
+        "id": 9,
+        "url":["https://our-reviews.vercel.app/"],
+        "image":"https://i.imgur.com/9djGs2c.png",
+        "name": "Our Reviews",
+        "text": "Proyecto [React,Chakra-ui]",
+        "type":["React","Chakra-ui"]
       }
   ]
