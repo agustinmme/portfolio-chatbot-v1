@@ -62,5 +62,13 @@
         "name": "Our Reviews",
         "text": "Proyecto [React,Chakra-ui]",
         "type":["React","Chakra-ui"]
+      },
+      {
+        "id": 10,
+        "url":["https://our-menu.vercel.app/"],
+        "image":"https://i.imgur.com/kan2gBU.png",
+        "name": "Our Menus",
+        "text": "Proyecto [React,Chakra-ui]",
+        "type":["React","Chakra-ui"]
       }
   ]
