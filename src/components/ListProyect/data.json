@@ -21,7 +21,7 @@
         "image":"https://i.imgur.com/iHyKZf8.png",
         "name": "Cuadro cromatico",
         "text": "Juego/Puzzle [Android,Java]",
-        "type":["Java","Android"]
+        "type":["Java"]
       },
       {
         "id": 5,
@@ -37,7 +37,7 @@
         "image":"https://i.imgur.com/meelx42.png",
         "name": "Where's my books?",
         "text": "Proyecto [React,Nodejs]",
-        "type":["React","Nodejs","bootstrap"]
+        "type":["React","Nodejs","Bootstrap"]
       },
       {
         "id": 7,

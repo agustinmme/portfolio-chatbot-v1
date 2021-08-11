@@ -5,10 +5,10 @@ import data from "./data.json";
 
 export default function ListProyect() {
   return (
-    <div className="container">
+    <ul className="container-2">
       {data.map((item) => (
       <Item  key={item.id} className="item-list"  links={item.url}  name={item.name} text={item.text} img={item.image} type={item.type}/>
       ))}
-    </div>
+    </ul>
   );
 }
