@@ -1,44 +1,4 @@
 [
-    {
-      "id": 0,
-      "url":["https://agustinmme.github.io/react-frontmentor-1/","https://github.com/agustinmme/react-frontmentor-1"],
-      "image":"https://www.frontendmentor.io/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdz209s6jk%2Fimage%2Fupload%2Fv1613128397%2FChallenges%2Fluxbxwbgw9q8cj3i8d7l.jpg&w=828&q=75",
-      "name": "Crowdfunding product page",
-      "text": "Challenge Frontendmentor [REACT,CHAKRA-UI]",
-      "type":["React","Chakra-ui"]
-        },
-    {
-        "id": 1,
-        "url":["https://agustinmme.github.io/react-frontmentor-socialdashboard/","https://github.com/agustinmme/react-frontmentor-socialdashboard"],
-        "image":"https://www.frontendmentor.io/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdz209s6jk%2Fimage%2Fupload%2Fv1585840948%2FChallenges%2Fftdvklbtn6y7ydjxjjuj.jpg&w=828&q=75",
-        "name": "Social media dashboard",
-        "text": "Challenge Frontendmentor [REACT,CHAKRA-UI]",
-        "type":["React","Chakra-ui"]
-      },
-      {
-        "id": 4,
-        "url":["https://play.google.com/store/apps/details?id=androidunlp.tpgrupo7.cuadrocromatico","https://github.com/agustinmme/unlp-android-tp"],
-        "image":"https://i.imgur.com/iHyKZf8.png",
-        "name": "Cuadro cromatico",
-        "text": "Juego/Puzzle [Android,Java]",
-        "type":["Java"]
-      },
-      {
-        "id": 5,
-        "url":["https://agustinmme.github.io/react-chakra/","https://github.com/agustinmme/react-chakra"],
-        "image":"https://i.imgur.com/ngJllFy.png",
-        "name": "ToDo List",
-        "text": "Proyecto practica [React,Chakra-ui]",
-        "type":["React","Chakra-ui"]
-      } ,
-      {
-        "id": 6,
-        "url":["https://tp-grupo6-react.vercel.app/"],
-        "image":"https://i.imgur.com/meelx42.png",
-        "name": "Where's my books?",
-        "text": "Proyecto [React,Nodejs]",
-        "type":["React","Nodejs","Bootstrap"]
-      },
       {
         "id": 7,
         "url":["https://birthday-app-vite.vercel.app/"],
@@ -70,5 +30,53 @@
         "name": "Our Menus",
         "text": "Proyecto [React,Chakra-ui]",
         "type":["React","Chakra-ui"]
-      }
+      },
+      {
+        "id": 0,
+        "url":["https://agustinmme.github.io/react-frontmentor-1/","https://github.com/agustinmme/react-frontmentor-1"],
+        "image":"https://www.frontendmentor.io/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdz209s6jk%2Fimage%2Fupload%2Fv1613128397%2FChallenges%2Fluxbxwbgw9q8cj3i8d7l.jpg&w=828&q=75",
+        "name": "Crowdfunding product page",
+        "text": "Challenge Frontendmentor [REACT,CHAKRA-UI]",
+        "type":["React","Chakra-ui"]
+          },
+      {
+          "id": 1,
+          "url":["https://agustinmme.github.io/react-frontmentor-socialdashboard/","https://github.com/agustinmme/react-frontmentor-socialdashboard"],
+          "image":"https://www.frontendmentor.io/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdz209s6jk%2Fimage%2Fupload%2Fv1585840948%2FChallenges%2Fftdvklbtn6y7ydjxjjuj.jpg&w=828&q=75",
+          "name": "Social media dashboard",
+          "text": "Challenge Frontendmentor [REACT,CHAKRA-UI]",
+          "type":["React","Chakra-ui"]
+        },
+        {
+          "id": 5,
+          "url":["https://agustinmme.github.io/react-chakra/","https://github.com/agustinmme/react-chakra"],
+          "image":"https://i.imgur.com/ngJllFy.png",
+          "name": "ToDo List",
+          "text": "Proyecto practica [React,Chakra-ui]",
+          "type":["React","Chakra-ui"]
+        } ,
+        {
+          "id": 4,
+          "url":["https://play.google.com/store/apps/details?id=androidunlp.tpgrupo7.cuadrocromatico","https://github.com/agustinmme/unlp-android-tp"],
+          "image":"https://i.imgur.com/iHyKZf8.png",
+          "name": "Cuadro cromatico - Juego Android",
+          "text": "Juego/Puzzle [Android,Java]",
+          "type":["Java"]
+        },
+        {
+          "id": 6,
+          "url":["https://tp-grupo6-react.vercel.app/"],
+          "image":"https://i.imgur.com/meelx42.png",
+          "name": "Where's my books?",
+          "text": "Proyecto [React,Nodejs]",
+          "type":["React","Nodejs","Bootstrap"]
+        },
+        {
+          "id": 12,
+          "url":["https://photoselectpro.com/app.html#/galeria/1c2PGDJkufb9ky8mCuPTY9FthltN02JlE/6515"],
+          "image":"https://i.imgur.com/BwKdhXC.jpg",
+          "name": "Certifcado-APP(SOLO IMAGEN)",
+          "text": "Proyecto [React,Firebase,jsPDF,chakra-ui]",
+          "type":["React","Firebase","Chakra-ui","jsPDF"]
+        }
   ]
