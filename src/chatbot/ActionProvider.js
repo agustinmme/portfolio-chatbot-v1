@@ -93,7 +93,7 @@ class ActionProvider {
 
   handleAbout = () => {
     const message = this.createChatBotMessage(
-      "Hola,soy un programador en búsqueda de mi primer empleo en el área IT en el cual pueda aprender y desarrollarme como profesional mientras termino la carrera. Me considero una persona perseverante con gran capacidad de adaptación y aprendizaje, en constante búsqueda de nuevos conocimientos  y aprendizajes, con el objetivo de crecer como persona y como profesional. Disfruto de nuevos desafíos para probar mi capacidad constantemente, me gusta conocer gente nueva, tanto para trabajar en equipo como para compartir historias y experiencias."
+      "Soy una persona en búsqueda de mi primer empleo como programador, labor que me apasiona desde que tuve la oportunidad de aprender. Me considero una persona perseverante, con gran capacidad de adaptación y aprendizaje aunque un poco inquieto ya que constantemente me encuentro realizando nuevos proyectos que puedan servir a otras personas, tal como los que se presentan en este portfolio. Me gusta trabajar en equipo ya que encuentro en ellos una oportunidad de aprender y ampliar mis puntos de vista tomando las opiniones de otras personas para poder lograr el mejor trabajo en un proyecto."
     );
     this.addMessageToState(message);
   };

@@ -17,6 +17,9 @@ const SVG = {
     "HTML": "./images/html.svg",
     "CSS": "./images/css.svg",
     "npm": "./images/npm.svg",
+    "Bootstrap":"./images/boostrap.svg",
+    "Postgresql":"./images/Postgresql_elephant.svg",
+    "Spring":"./images/Spring.svg",
   };
 export default function Skills() {
   return (
